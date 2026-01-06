@@ -10,5 +10,5 @@ import SwiftUI
 // MARK: - DSFont
 enum DSFont {
     static let tabImage: Font = .system(size: 20, weight: .semibold)
-    static let tabTitle: Font = .footnote
+    static let tabTitle: Font = .caption
 }
