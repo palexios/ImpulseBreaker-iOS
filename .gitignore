@@ -1,0 +1,88 @@
+# Xcode
+########################
+# User settings
+xcuserdata/
+*.xcuserstate
+*.moved-aside
+*.swp
+*.xcscmblueprint
+
+# Build
+build/
+DerivedData/
+*.o
+*.LinkFileList
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+########################
+# Packages
+.swiftpm/
+Package.resolved
+.build/
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/
+
+# CocoaPods
+########################
+Pods/
+Podfile.lock
+
+# Carthage
+########################
+Carthage/Build/
+Carthage/Checkouts/
+
+# Firebase
+########################
+# Configs, keys, sensitive data
+GoogleService-Info.plist
+*.plist
+
+# SwiftData / CoreData
+########################
+*.momd
+*.xcdatamodeld
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Swift Playgrounds
+########################
+timeline.xctimeline
+playground.xcworkspace
+
+# Fastlane
+########################
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Xcode Server
+########################
+integration/
+
+# macOS
+########################
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+._*
+*.swp
+
+# Logs
+########################
+*.log
+
+# Secrets
+########################
+*.key
+*.p12
+*.cer
+*.mobileprovision
+.env
