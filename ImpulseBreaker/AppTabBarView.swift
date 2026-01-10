@@ -58,7 +58,7 @@ struct AppTabBarView: View {
                     .resizable()
                     .frame(width: DSLayout.AppTabBarView.iconWidth, height: DSLayout.AppTabBarView.iconHeight)
                     .fontWeight(DSFont.Weight.tabIcon)
-                    .foregroundStyle(DSColor.backgroundPrimary)
+                    .foregroundStyle(DSColor.Background.primary)
             }
     }
     
@@ -73,7 +73,7 @@ struct AppTabBarView: View {
                 Text(tab.tabItem.title)
                     .font(DSFont.tabTitle)
             }
-            .foregroundStyle(selection == tab ? DSColor.primary : DSColor.textSecondary)
+            .foregroundStyle(selection == tab ? DSColor.primary : DSColor.Text.secondary)
         }
     }
 }
