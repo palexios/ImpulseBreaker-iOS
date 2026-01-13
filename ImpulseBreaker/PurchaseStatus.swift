@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - PurchaseStatus
-enum PurchaseStatus {
+enum PurchaseStatus: SegmentedItem {
     case purchased
     case preliminary
     case canceled
@@ -18,7 +18,7 @@ enum PurchaseStatus {
         case .purchased:
             "Куплено"
         case .preliminary:
-            "Приостановлено"
+            "Заморожено"
         case .canceled:
             "Отменено"
         }

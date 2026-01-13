@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - PurchaseSort
-enum PurchaseSort {
+enum PurchaseSort: SegmentedItem {
     case date
     case price
     case category

@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - PurchaseCategory
-enum PurchaseCategory {
+enum PurchaseCategory: SegmentedItem {
     case electronics
     case clothing
     case food
